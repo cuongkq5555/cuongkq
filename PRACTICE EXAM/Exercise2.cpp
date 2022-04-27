@@ -21,17 +21,11 @@ int reverseArray (int arr[], int n){
 
 
 int main () {
-	int n;
-	printf("Nhap n = ");
-	scanf("%d", &n);
-	int arr[n];
-	for(int i=0;i<n;i++){
-		printf("arr[%d]", i++);
-		scanf("%d", &arr[i]);
-	}	
-//	int arr[5];
-	inPut (arr,n);
-	reverseArray(arr,n);
-	outPut(arr,n);
+
+	
+	int arr[5];
+	inPut (arr,5);
+	reverseArray(arr,5);
+	outPut(arr,5);
   
 }
